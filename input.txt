@@ -1,0 +1,272 @@
+<qbem>
+<medium>
+    name medium1
+    <block>
+	name med1_1
+        basepoint(-2.4, -2.4, -1)
+        v1(5.5, 0, 0)
+        v2(0, 5.5, 0)
+	hvector(0, 0, 1.3)
+    [/block]
+    diel 2.6
+[/medium]
+<medium>
+    name medium1b
+    <block>
+	name med1_2
+        basepoint(-2.4, -2.4, 0.3)
+        v1(5.5, 0, 0)
+        v2(0, 5.5, 0)
+	hvector(0, 0, 0.04)
+    [/block]
+    diel 5.0
+[/medium]
+<medium>
+    name medium2
+    <block>
+	name med2_1
+        basepoint(-2.4, -2.4, 0.34)
+        v1(5.5, 0, 0)
+        v2(0, 5.5, 0)
+	hvector(0, 0, 0.22)
+    [/block]
+    diel 2.6
+[/medium]
+<medium>
+    name medium2b
+    <block>
+	name med2_2
+        basepoint(-2.4, -2.4, 0.56)
+        v1(5.5, 0, 0)
+        v2(0, 5.5, 0)
+	hvector(0, 0, 0.04)
+    [/block]
+    diel 5.0
+[/medium]
+<medium>
+    name medium3
+    <block>
+	name med3_1
+        basepoint(-2.4, -2.4, 0.6)
+        v1(5.5, 0, 0)
+        v2(0, 5.5, 0)
+	hvector(0, 0, 0.22)
+    [/block]
+    diel 2.6
+[/medium]
+<medium>
+    name medium3b
+    <block>
+	name med3_2
+        basepoint(-2.4, -2.4, 0.82)
+        v1(5.5, 0, 0)
+        v2(0, 5.5, 0)
+	hvector(0, 0, 0.04)
+    [/block]
+    diel 5.0
+[/medium]
+<medium>
+    name medium4
+    <block>
+	name med4_1
+        basepoint(-2.4, -2.4, 0.86)
+        v1(5.5, 0, 0)
+        v2(0, 5.5, 0)
+	hvector(0, 0, 0.22)
+    [/block]
+    diel 2.6
+[/medium]
+<medium>
+    name medium4b
+    <block>
+	name med4_2
+        basepoint(-2.4, -2.4, 1.08)
+        v1(5.5, 0, 0)
+        v2(0, 5.5, 0)
+	hvector(0, 0, 0.04)
+    [/block]
+    diel 5.0
+[/medium]
+<medium>
+    name medium5
+    <block>
+	name med5_1
+        basepoint(-2.4, -2.4, 1.12)
+        v1(5.5, 0, 0)
+        v2(0, 5.5, 0)
+	hvector(0, 0, 2.32)
+    [/block]
+    diel 2.6
+[/medium]
+/*
+	<conductor>
+		name	cond_1_1
+		<block>
+			name blkcond_1_1
+			basepoint(0.00000,0.00000,0.420000)
+			v1(0.700000,0.000000,0.000000)
+			v2(0.000000,0.070000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_1_2
+		<block>
+			name blkcond_1_2
+			basepoint(0.000,0.140000,0.420000)
+			v1(0.700000,0.000000,0.000000)
+			v2(0.000000,0.070000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_1_3
+		<block>
+			name blkcond_1_3
+			basepoint(0.000,0.280000,0.420000)
+			v1(0.700000,0.000000,0.000000)
+			v2(0.000000,0.070000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_1_4
+		<block>
+			name blkcond_1_4
+			basepoint(0.000,0.420000,0.420000)
+			v1(0.700000,0.000000,0.000000)
+			v2(0.000000,0.070000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_1_5
+		<block>
+			name blkcond_1_5
+			basepoint(0.000,0.560000,0.420000)
+			v1(0.700000,0.000000,0.000000)
+			v2(0.000000,0.070000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_1_6
+		<block>
+			name blkcond_1_6
+			basepoint(0.000,0.700000,0.420000)
+			v1(0.700000,0.000000,0.000000)
+			v2(0.000000,0.070000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+*/
+	<conductor>
+		name	cond_2_1
+		<block>
+			name blkcond_2_1
+			basepoint(0.00000,0.000000,0.680000)
+			v1(0.070000,0.000000,0.000000)
+			v2(0.000000,0.700000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_2_2
+		<block>
+			name blkcond_2_2
+			basepoint(0.14000,0.000000,0.680000)
+			v1(0.070000,0.000000,0.000000)
+			v2(0.000000,0.700000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_2_3
+		<block>
+			name blkcond_2_3
+			basepoint(0.28000,0.000000,0.680000)
+			v1(0.070000,0.000000,0.000000)
+			v2(0.000000,0.700000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_2_4
+		<block>
+			name blkcond_2_4
+			basepoint(0.42000,0.000000,0.680000)
+			v1(0.070000,0.000000,0.000000)
+			v2(0.000000,0.700000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_2_5
+		<block>
+			name blkcond_2_5
+			basepoint(0.56000,0.000000,0.680000)
+			v1(0.070000,0.000000,0.000000)
+			v2(0.000000,0.700000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_3_1
+		<block>
+			name blkcond_3_1
+			basepoint(0.00000,0.00000,0.940000)
+			v1(0.700000,0.000000,0.000000)
+			v2(0.000000,0.070000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_3_2
+		<block>
+			name blkcond_3_2
+			basepoint(0.000,0.140000,0.940000)
+			v1(0.700000,0.000000,0.000000)
+			v2(0.000000,0.070000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_3_3
+		<block>
+			name blkcond_3_3
+			basepoint(0.000,0.280000,0.940000)
+			v1(0.700000,0.000000,0.000000)
+			v2(0.000000,0.070000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_3_4
+		<block>
+			name blkcond_3_4
+			basepoint(0.000,0.420000,0.940000)
+			v1(0.700000,0.000000,0.000000)
+			v2(0.000000,0.070000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<conductor>
+		name	cond_3_5
+		<block>
+			name blkcond_3_5
+			basepoint(0.000,0.560000,0.940000)
+			v1(0.700000,0.000000,0.000000)
+			v2(0.000000,0.070000,0.000000)
+			hvector(0.000000,0.000000,0.140000)
+		[/block]
+	[/conductor]
+	<task>
+		<capacitance>
+			cond_2_3
+		[/capacitance]
+	[/task]
+<window>
+    v1(-2.4, -2.4, -1.00)
+    v2(3.1, 3.1, 3.44)
+[/window]
+[/qbem]
