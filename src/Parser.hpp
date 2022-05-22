@@ -35,11 +35,6 @@ enum Token {
   window_end,
 };
 
-struct PatternInf {
-  std::regex pattern;
-  Token token;
-};
-
 class Parser {
  public:
   Parser(std::string fpath, DataBase* db);
