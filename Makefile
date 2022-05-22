@@ -11,7 +11,6 @@ run:clean
 build:clean
 	cmake . -B $(BUILD_DIR) -Ddebug=1
 	make -C $(BUILD_DIR)
-	cd $(BUILD_DIR)
 
 gdb:build
 	cd $(BUILD_DIR) && gdb $(BIN)
