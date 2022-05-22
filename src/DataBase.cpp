@@ -5,12 +5,17 @@
 #include <iostream>
 
 DataBase::~DataBase() {
+  if (_window) delete _window;
+
   for (auto m : _medium_list) {
     delete m;
   }
   _medium_list.clear();
 
-  if (_window) delete _window;
+  for (auto cdt : _conductor_list) {
+    delete cdt;
+  }
+  _conductor_list.clear();
 }
 
 void DataBase::format(std::string opath) {
